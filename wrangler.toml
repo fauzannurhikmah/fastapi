@@ -1,0 +1,6 @@
+name = "fastapi"
+compatibility_date ="2024-05-06"
+
+[vars]
+UPSTASH_REDIS_REST_URL = "https://model-mosquito-38640.upstash.io"
+UPSTASH_REDIS_REST_TOKEN = "AZbwAAIncDE0NTA4ZGZkYjM5ZjA0NWFlYmJiYWUzYTMxNDg5YjcyYXAxMzg2NDA"
