@@ -5,21 +5,19 @@ import Image from "next/image"
 import { useEffect, useState } from "react"
 
 
-const page = () => {
+const Page = () => {
   const [input, setInput] = useState("")
   const CLOUDFLARE_API = process.env.NEXT_PUBLIC_CLOUDFLARE_API;
   const [searchResults, setSearchResults] = useState<{ results: string[], duration: number }>()
+
 
   useEffect(() => {
     const fetchData = async () => {
       if (!input) return setSearchResults(undefined)
       const res = await fetch(`${CLOUDFLARE_API}/api/search?q=${input}`)
       const data = (await res.json()) as { results: string[], duration: number }
-      console.log(data);
-
       setSearchResults(data)
     }
-
     fetchData()
   }, [input]);
 
@@ -61,4 +59,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
