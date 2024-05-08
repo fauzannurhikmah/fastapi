@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.1](https://github.com/fauzannurhikmah/fastapi/compare/v1.1.0...v1.1.1) (2024-05-08)
+
+
+### Bug Fixes
+
+* comments ([0ce7289](https://github.com/fauzannurhikmah/fastapi/commit/0ce72892bee7a945c7e79a6efd646aefd24ccd6d))
+
 ## 1.1.0 (2024-05-08)
 
 
