@@ -1,6 +1,12 @@
 {
-    "changelogFile": "CHANGELOG.md",
-    "github": {
-        "release": true
-    }
+  "changelogFile": "CHANGELOG.md",
+  "hooks": {
+    "after:bump": "npx auto-changelog -p"
+  },
+  "github": {
+    "release": true
+  },
+  "npm": {
+    "publish": true
+  }
 }
