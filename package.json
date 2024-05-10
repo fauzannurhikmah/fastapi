@@ -7,7 +7,6 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "changelog": "conventional-changelog -p nextjs -i CHANGELOG.md -s",
     "deploy": "wrangler deploy --minify --name fastapi src/app/api/[[...route]]/route.ts",
     "release": "npx release-it"
   },
