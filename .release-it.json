@@ -1,0 +1,6 @@
+{
+    "changelogFile": "CHANGELOG.md",
+    "github": {
+        "release": true
+    }
+}

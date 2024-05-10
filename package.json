@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "changelog": "conventional-changelog -p nextjs -i CHANGELOG.md -s",
-    "deploy": "wrangler deploy --minify --name fastapi src/app/api/[[...route]]/route.ts"
+    "deploy": "wrangler deploy --minify --name fastapi src/app/api/[[...route]]/route.ts",
+    "release": "npx release-it"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.0.5",
@@ -25,6 +26,7 @@
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
+    "@release-it/conventional-changelog": "^8.0.1",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
