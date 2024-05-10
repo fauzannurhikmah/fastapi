@@ -5,6 +5,8 @@ const redis = new Redis({
     token: 'AZbwAAIncDE0NTA4ZGZkYjM5ZjA0NWFlYmJiYWUzYTMxNDg5YjcyYXAxMzg2NDA',
 })
 
+this code must error
+
 const countryList = [
     "Afghanistan",
     "Albania",
